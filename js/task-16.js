@@ -3,6 +3,22 @@ import { createMatrixBricks } from "../helpers/createMatrixBricks.js";
 import { createMatrixStairsRight } from "../helpers/createMatrixStairsRight.js";
 import { createMatrixStairsLeft } from "../helpers/createMatrixStairsLeft.js";
 
+
+window.addEventListener("DOMContentLoaded", () => {
+  const music = new Audio("./assets/music/retro-music.mp3");
+  music.loop = true;
+  music.volume = 0.4;
+
+  // Автовоспроизведение по нажатию (в некоторых браузерах без взаимодействия не играет)
+  document.addEventListener(
+    "click",
+    () => {
+      music.play();
+    },
+    { once: true }
+  );
+});
+
 let isGameOver = false;
 const gameOverScreen = document.createElement("div");
 gameOverScreen.id = "game-over-screen";
