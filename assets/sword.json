@@ -1,0 +1,52 @@
+{
+  "swordFragments": [
+    {
+      "direction": 0,
+      "angle": 0,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": 0, "y": -50 }
+    },
+    {
+      "direction": 1,
+      "angle": 45,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": 35, "y": -35 }
+    },
+    {
+      "direction": 2,
+      "angle": 90,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": 50, "y": 0 }
+    },
+    {
+      "direction": 3,
+      "angle": 135,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": 35, "y": 35 }
+    },
+    {
+      "direction": 4,
+      "angle": 180,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": 0, "y": 50 }
+    },
+    {
+      "direction": 5,
+      "angle": 225,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": -35, "y": 35 }
+    },
+    {
+      "direction": 6,
+      "angle": 270,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": -50, "y": 0 }
+    },
+    {
+      "direction": 7,
+      "angle": 315,
+      "image": "./assets/images/fragment.png",
+      "offset": { "x": -35, "y": -35 }
+    }
+  ]
+}
