@@ -622,7 +622,7 @@ animation.addEventListener("DOMLoaded", () => {
 // let posY = rect.bottom - animationHeight;
 let running = false;
 let direction = "right"; // 'right' или 'left'
-let moveSpeed = 3; // скорость движения в пикселях
+let moveSpeed = 2; // скорость движения в пикселях
 
 const keys = {
   ArrowLeft: false,
@@ -1174,8 +1174,8 @@ function updateBotPosition(bot, timestamp) {
 
   const { rowB, colB } = position;
 
-  const gravity = 3;
-  const moveSpeed = 3;
+  const gravity = 2;
+  const moveSpeed = 2;
   let dx = 0;
   let dy = 0;
 
@@ -1700,7 +1700,7 @@ function updateBotSecondPosition(botSecond, timestamp) {
 
   const { rowB, colB } = position;
 
-  const gravity = 3;
+  const gravity = 1;
   const moveSpeed = 2;
   let dx = 0;
   let dy = 0;
