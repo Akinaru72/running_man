@@ -3,7 +3,6 @@ import { createMatrixBricks } from "../helpers/createMatrixBricks.js";
 import { createMatrixStairsRight } from "../helpers/createMatrixStairsRight.js";
 import { createMatrixStairsLeft } from "../helpers/createMatrixStairsLeft.js";
 
-
 window.addEventListener("DOMContentLoaded", () => {
   const music = new Audio("./assets/music/retro-music.mp3");
   music.loop = true;
@@ -623,7 +622,7 @@ animation.addEventListener("DOMLoaded", () => {
 // let posY = rect.bottom - animationHeight;
 let running = false;
 let direction = "right"; // 'right' или 'left'
-let moveSpeed = 5; // скорость движения в пикселях
+let moveSpeed = 3; // скорость движения в пикселях
 
 const keys = {
   ArrowLeft: false,
@@ -1175,8 +1174,8 @@ function updateBotPosition(bot, timestamp) {
 
   const { rowB, colB } = position;
 
-  const gravity = 5;
-  const moveSpeed = 5;
+  const gravity = 3;
+  const moveSpeed = 3;
   let dx = 0;
   let dy = 0;
 
@@ -1701,8 +1700,8 @@ function updateBotSecondPosition(botSecond, timestamp) {
 
   const { rowB, colB } = position;
 
-  const gravity = 5;
-  const moveSpeed = 4;
+  const gravity = 3;
+  const moveSpeed = 2;
   let dx = 0;
   let dy = 0;
 
